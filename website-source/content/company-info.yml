@@ -1,3 +1,4 @@
+# Company Information
 company-address:
   first-line: 41 dover st
   second-line: Suite 1
@@ -8,6 +9,7 @@ company-address:
 
 company-phone: (774) 224-9563
 company-fax: (774) 224-9568
+company-email: info@bstarengineering.com
 
 company-social:
   facebook: false
@@ -16,17 +18,18 @@ company-social:
   linkedin: false
   github: false
 
+# Text for the about us for our members.
 about-title: Meet the Team
 about-blurb: We are very smart people and can do work good.
 members:
   -
-    bio: "Alex Camilo graduated with a bachelors in electrical and computer engineering from Worcester Polytechnic University. After graduation he was a co-founder of neuron robotics, an education focused robotics startup.Later,  he has worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly. He has worked on projects involving medical robotics, IOT, wireless communications,environmental sensing, and robotics education.  He is currently a lab manager at Worcester polytechnic and assists in curriculum development."
+    bio: "Alex Camilo graduated with a bachelors in electrical and computer engineering from Worcester Polytechnic Institute. After graduation he was a co-founder of neuron robotics, an education focused robotics startup.Later,  he has worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly."
     email: Alex@bstarengineering.com
     name-first: Alex
     name-last: Camilo
     phone-extension: 101
     role: Engineering
-    photo: photos/alex.png
+    photo: images/content/team/alex.jpg
   -
     bio: "Jansen Smith majored in Robotics Engineering and Physics at Worcester Polytechnic Institute in Worcester, Massachusetts. He oversees operations for the firm and lends personal attention to completing every client project on time and with the highest level of satisfaction."
     email: Jansen@bstarengineering.com
@@ -34,7 +37,7 @@ members:
     name-last: Smith
     phone-extension: 301
     role: "Project Management"
-    photo: photos/jansen.png
+    photo: images/content/team/jansen.jpg
   -
     bio: "Danyel Pollock majored in Economics and Marketing at the University of Massachusetts Lowell. She works with BStar to reach new customers and implement our firm's vision of providing rockstar customer experiences."
     email: Danyel@bstarengineering.com
@@ -42,7 +45,9 @@ members:
     name-last: Pollock
     phone-extension: 201
     role: "Customer Experience"
-    photo: photos/danyel.png
+    photo: images/content/team/danyel.jpg
+
+# The type-out-a-rsponse animation that plays over the movie
 typer-title: Fast Turnaround
 typer-initial: For Your Custom
 typer-lines:
@@ -51,8 +56,10 @@ typer-lines:
   - Prototype
   - 3D printed part
 
+# Landing video on the front page
 landing-video: video/print.mp4
 
+# Front page services section
 services-title: "How it works?"
 services-blurb: "Can't decide which service to choose? Take a look at popular"
 services:
@@ -71,6 +78,8 @@ services:
     icon: compass
     link: services/Modeling
 
+# Content on the footer section
+footer-about-blurb-title: Our Mission
 footer-about-blurb: Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam rem aperam eaque ipsa quae.
 footer-quick-links:
   - link-name: Home
@@ -80,12 +89,13 @@ footer-quick-links:
   - link-name: About
     link-to: about
 
+#The site menu bar.
 menu-top:
   - link-name: Home
-    link-to: index
+    link-to: index.html
   - link-name: Pricing
     link-to: pricing
   - link-name: About
-    link-to: about
+    link-to: about.html
   - link-name: Contact Us
-    link-to: contact
+    link-to: contact.html

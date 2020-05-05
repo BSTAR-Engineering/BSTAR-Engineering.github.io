@@ -127,47 +127,30 @@
 
     <!-- members area start -->
     <div id="members" class="wrap-bg">
+
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8">
                     <div class="section-title with-p">
-                        <span class="bg-start-light">Our Expert</span>
-                        <h2>Meet the Engineering Team</h2>
-                        <p>All our Team are certified and highly qualified, with the majority holding advanced. Our
-                            staff also takes part in regular programs.
+                      <br /><br />
+                        <h2>{{about-title}}</h2>
+                        <p>{{about-blurb}}
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row carousel-slider gallery-slider">
-                <div class="col-lg-4">
-                    <article class="item"><!-- single teacher -->
-                        <a href="images/content/team/alex.jpg" class="fancybox"
-                           data-fancybox-group="images_gallery"><img src="images/content/team/alex.jpg" alt="Image 1"/></a>
-                        <h5>Alex Camilo</h5>
-                        <span>Sales Manager</span>
-                        <p>Sales Manager is an academic rank used in universities or colleges in the United States, Canada, and some other countries.</p>
-                    </article><!-- end single teacher -->
-                </div>
-                <div class="col-sm-4">
-                    <article class="item">
-                        <a href="images/content/team/danyel.jpg" class="fancybox"
-                           data-fancybox-group="images_gallery"><img src="images/content/team/danyel.jpg" alt="Image 2"/></a>
-                        <h5>Danyel Pollock</h5>
-                        <span>Engineer</span>
-                        <p>A bachelor's degree in psychology is ideal for would-be professors in this field. Although most psychology Ph.D. programs.</p>
-                    </article><!-- end single teacher -->
-                </div>
+              {{#members}}
                 <div class="col-sm-4">
                     <article class="item"><!-- single teacher -->
-                        <a href="images/content/team/jansen.jpg" class="fancybox"
-                           data-fancybox-group="images_gallery"><img src="images/content/team/jansen.jpg" alt="Image 3"/></a>
-                        <h5>Jansen Smith</h5>
-                        <span>Chief Executive Officer</span>
-                        <p>A bachelor's degree in psychology is ideal for would-be professors in this field. Although most psychology Ph.D. programs.</p>
+                        <a href="" class="fancybox"
+                           data-fancybox-group="images_gallery"><img src="{{photo}}" alt="Image 1"/></a>
+                        <h5>{{name-first}} {{name-last}}</h5>
+                        <span>{{role}}</span>
+                        <p>{{bio}}</p>
                     </article><!-- end single teacher -->
                 </div>
-
+              {{/members}}
             </div>
         </div>
     </div>
@@ -183,11 +166,10 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-sm-6"><!-- footer widget -->
                     <div class="f-widget-title">
-                        <h4>Baustelle</h4>
+                        <h4>{{footer-about-blurb-title}}</h4>
                     </div>
                     <div class="footer-text">
-                        <p>Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam rem aperam
-                            eaque ipsa quae.
+                        <p>{{footer-about-blurb}}
                         </p>
                     </div>
                     <div class="icon-round-white footer-social mt-25">
@@ -235,21 +217,29 @@
                         <div class="address-icon">
                             <i class="fas fa-home"></i>
                         </div>
-                        <p>No.123 Chalingt Gates,
-                            Supper market New York
+                        <p>{{company-address.first-line}},
+                          {{company-address.second-line}}
+                          {{company-address.city}},{{company-address.state}} {{company-address.zip}}
+                          {{company-address.country}}
                         </p>
                     </div>
                     <div class="sigle-address">
                         <div class="address-icon">
                             <i class="far fa-envelope-open"></i>
                         </div>
-                        <p>support@gmail.com</p>
+                        <p>{{company-email}}</p>
                     </div>
                     <div class="sigle-address">
                         <div class="address-icon">
                             <i class="fas fa-headphones"></i>
                         </div>
-                        <p>+012 (4567) 789</p>
+                        <p>{{company-phone}}</p>
+                    </div>
+                    <div class="sigle-address">
+                        <div class="address-icon">
+                            <i class="fas fa-fax"></i>
+                        </div>
+                        <p>{{company-fax}}</p>
                     </div>
                 </div><!-- footer widget -->
             </div>
