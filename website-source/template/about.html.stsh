@@ -35,13 +35,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <div class="address-icon"><i class="fas fa-headphones"></i><a href="tel:123-456-7890">123-456-7890</a></div><div class="address-icon"><i class="far fa-envelope-open"></i><a href="contact.html">New York, NY 1002</a></div><div class="address-icon"><i class="fas fa-home"></i><a href="mailto:information@bstarengineering.com">information@bstarengineering.com</a></div>    </div>
+                    <div class="address-icon">
+                      <i class="fas fa-phone"></i>
+                      <a href="tel:{{company-phone}}" alt="Company Phone">{{company-phone}}</a>
+                    </div>
+                    <div class="address-icon">
+                      <i class="fas fa-fax"></i>
+                      <a href="tel:{{company-phone}}" alt="Company Fax">{{company-fax}}</a>
+                    </div>
+                    <div class="address-icon">
+                      <i class="fas fa-home"></i>
+                      <a href="mailto:{{company-email}}" alt="Company-Email">{{company-email}}</a>
+                    </div>
+                  </div>
                 <div class="col-lg-5 text-right">
                     <div class="custom-page-top">
-                        <a href="/blog/">News</a><a href="/become-an-widget-call/">Careers</a><a href="/services/">Privacy Policy</a>                </div>
-
+                      {{#menu-tippity-top}}
+                      <a href="{{link-to}}">{{link-name}}</a>
+                      {{/menu-tippity-top}}
                     <div class="social_top_header">
-                        <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>                    </div>
+                      {{#company-social}}
+                        <a href="{{link}}"><i class="fab fa-{{type}}" aria-hidden="true"></i></a>
+                      {{/company-social}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,54 +79,12 @@
                 </div>
             <div class="collapse navbar-collapse " id="navbarCollapse">
                 <ul class="nav navbar-nav ml-auto">
-                    <!-- Menu Link -->
-                    <li class="subnav">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html" class="nav-link ">Home Construction</a></li>
-                            <li><a href="index2.html" class="nav-link ">Home White Element</a></li>
-                            <li><a href="index3.html" class="nav-link ">Home Header Transparent</a></li>
-                            <li><a href="index4.html" class="nav-link ">Home Real Estate</a></li>
-                            <li><a href="index5.html" class="nav-link ">Home Video Slider</a></li>
-                            <li><a href="index6.html" class="nav-link ">Home House Cleaning</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="subnav">
-                        <a href="services.html">Services</a>
-                        <ul class="sub-menu">
-                            <li><a href="services.html" class="nav-link ">Services List 1</a></li>
-                            <li><a href="services2.html" class="nav-link ">Services List 2</a></li>
-                            <li><a href="services3.html" class="nav-link ">Services List 3</a></li>
-                            <li><a href="services-detail.html" class="nav-link ">Services Detail 1</a></li>
-                            <li><a href="services-detail2.html" class="nav-link ">Services Detail 2</a></li>
-                            <li><a href="services-detail3.html" class="nav-link ">Services Detail 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="subnav">
-                        <a href="project.html">Project</a>
-                        <ul class="sub-menu">
-                            <li><a href="project.html" class="nav-link ">Project 1</a></li>
-                            <li><a href="project2.html" class="nav-link ">Project 2</a></li>
-                            <li><a href="project3.html" class="nav-link ">Project 3</a></li>
-                            <li><a href="project-detail.html" class="nav-link ">Project Detail</a></li>
-                            <li><a href="project-detail2.html" class="nav-link ">Project Detail 2</a></li>
-                            <li><a href="project-detail2.html" class="nav-link ">Project Detail 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li class="subnav">
-                        <a href="contact.html">Contact</a>
-                        <ul class="sub-menu">
-                            <li><a href="contact.html" class="nav-link ">Contact</a></li>
-                            <li><a href="contact2.html" class="nav-link ">Contact 2</a></li>
-                            <li><a href="contact3.html" class="nav-link ">Contact 3</a></li>
-                        </ul>
-                    </li>
+                    {{#menu-top}}
+                    <li><a href="{{link-to}}">{{link-name}}</a></li>
+                    {{/menu-top}}
                 </ul>
                 <div class="header-cta">
-                    <a href="contact.html" class="btn btn-1c">GET IN TOUCH</a>
+                    <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
                 </div>
             </div>
             <!-- Menu Toogle end -->
@@ -173,10 +147,9 @@
                         </p>
                     </div>
                     <div class="icon-round-white footer-social mt-25">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" title="Google+"><i class="fab fa-google-plus"></i></a>
+                      {{#company-social}}
+                        <a href="{{link}}" title="{{type}}"><i class="fab fa-{{type}}"></i></a>
+                      {{/company-social}}
                     </div>
                 </div><!-- footer widget -->
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6"><!-- footer widget -->
@@ -185,29 +158,15 @@
                     </div>
                     <div class="f-widget-link">
                         <ul>
+                          {{#footer-quick-links}}
                             <!-- Menu Link -->
-                            <li><a href="#header">Home</a></li>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#screenshots">Screenshots</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#download">Download</a></li>
+                            <li><a href="{{link-to}}">{{link-name}}</a></li>
+                          {{/footer-quick-links}}
                         </ul>
                     </div>
                 </div><!-- footer widget -->
                 <div class="col-xl-2 offset-xl-1 col-lg-3 col-sm-6"><!-- footer widget -->
-                    <div class="f-widget-title">
-                        <h4>About</h4>
-                    </div>
-                    <div class="f-widget-link">
-                        <ul>
-                            <!-- Menu Link -->
-                            <li><a href="#header">Home</a></li>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#screenshots">Screenshots</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#download">Download</a></li>
-                        </ul>
-                    </div>
+
                 </div><!-- footer widget -->
                 <div class="col-xl-3 col-lg-3 col-sm-6"><!-- footer widget -->
                     <div class="f-widget-title">
@@ -231,7 +190,7 @@
                     </div>
                     <div class="sigle-address">
                         <div class="address-icon">
-                            <i class="fas fa-headphones"></i>
+                            <i class="fas fa-phone"></i>
                         </div>
                         <p>{{company-phone}}</p>
                     </div>
@@ -254,14 +213,17 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="copyright">
-                    <p>©2019 Baustelle. All Rights Reserved. Designed By <a href="http://www.drozd.at/" title="ThemeIoan" target="_blank">ThemeIoan</a>
+                    <p>©{{copyright-date}} {{company-name}}. All Rights Reserved. Designed By <a href="http://www.drozd.at/" title="ThemeIoan" target="_blank">ThemeIoan</a>
                     </p>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="copyright text-right">
-                    <p><a href="#"  target="_blank">Services</a> <a href="#"  target="_blank">Blog</a> <a href="#"  target="_blank">Services</a> <a href="#"  target="_blank">Events</a> <a href="#"  target="_blank">Contact</a>
-                    </p>
+                  <p>
+                  {{#menu-bippity-bottom}}
+                    <a href="{{link-to}}"  target="_blank">{{link-name}}</a>
+                  {{/menu-bippity-bottom}}
+                  </p>
                 </div>
             </div>
         </div>

@@ -29,104 +29,80 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 </head>
 <body>
-<!-- header area start -->
-<header id="header" class="transparent-header">
-    <div class="topheader top_header_light hidemobile">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="address-icon"><i class="fas fa-headphones"></i><a href="tel:123-456-7890">123-456-7890</a></div><div class="address-icon"><i class="far fa-envelope-open"></i><a href="contact.html">New York, NY 1002</a></div><div class="address-icon"><i class="fas fa-home"></i><a href="mailto:information@bstarengineering.com">information@bstarengineering.com</a></div>    </div>
-                <div class="col-lg-5 text-right">
-                    <div class="custom-page-top">
-                        <a href="/blog/">News</a><a href="/become-an-widget-call/">Careers</a><a href="/services/">Privacy Policy</a>                </div>
-
-                    <div class="social_top_header">
-                        <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- #navigation start -->
-    <nav class="navbar navbar-default navbar-expand-md navbar-light" id="navigation" data-offset-top="1">
-        <!-- .container -->
-        <div class="container">
-            <!-- Logo and Menu -->
-            <div class="navbar-header">
-                <div class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Logo"/></a></div>
-                <!-- site logo -->
-            </div>
-            <!-- Menu Toogle -->
-                <div class="burger-icon">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            <div class="collapse navbar-collapse " id="navbarCollapse">
-                <ul class="nav navbar-nav ml-auto">
-                    <!-- Menu Link -->
-                    <li class="subnav">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html" class="nav-link ">Home Construction</a></li>
-                            <li><a href="index2.html" class="nav-link ">Home White Element</a></li>
-                            <li><a href="index3.html" class="nav-link ">Home Header Transparent</a></li>
-                            <li><a href="index4.html" class="nav-link ">Home Real Estate</a></li>
-                            <li><a href="index5.html" class="nav-link ">Home Video Slider</a></li>
-                            <li><a href="index6.html" class="nav-link ">Home House Cleaning</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="subnav">
-                        <a href="services.html">Services</a>
-                        <ul class="sub-menu">
-                            <li><a href="services.html" class="nav-link ">Services List 1</a></li>
-                            <li><a href="services2.html" class="nav-link ">Services List 2</a></li>
-                            <li><a href="services3.html" class="nav-link ">Services List 3</a></li>
-                            <li><a href="services-detail.html" class="nav-link ">Services Detail 1</a></li>
-                            <li><a href="services-detail2.html" class="nav-link ">Services Detail 2</a></li>
-                            <li><a href="services-detail3.html" class="nav-link ">Services Detail 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="subnav">
-                        <a href="project.html">Project</a>
-                        <ul class="sub-menu">
-                            <li><a href="project.html" class="nav-link ">Project 1</a></li>
-                            <li><a href="project2.html" class="nav-link ">Project 2</a></li>
-                            <li><a href="project3.html" class="nav-link ">Project 3</a></li>
-                            <li><a href="project-detail.html" class="nav-link ">Project Detail</a></li>
-                            <li><a href="project-detail2.html" class="nav-link ">Project Detail 2</a></li>
-                            <li><a href="project-detail2.html" class="nav-link ">Project Detail 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li class="subnav">
-                        <a href="contact.html">Contact</a>
-                        <ul class="sub-menu">
-                            <li><a href="contact.html" class="nav-link ">Contact</a></li>
-                            <li><a href="contact2.html" class="nav-link ">Contact 2</a></li>
-                            <li><a href="contact3.html" class="nav-link ">Contact 3</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="header-cta">
-                    <a href="contact.html" class="btn btn-1c">GET IN TOUCH</a>
-                </div>
-            </div>
-            <!-- Menu Toogle end -->
-        </div>
-        <!-- .container end -->
-    </nav>
-    <!-- #navigation end -->
-</header>
-<!-- end header area -->
+  <!-- header area start -->
+  <header id="header" class="transparent-header">
+      <div class="topheader top_header_light hidemobile">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-7">
+                      <div class="address-icon">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:{{company-phone}}" alt="Company Phone">{{company-phone}}</a>
+                      </div>
+                      <div class="address-icon">
+                        <i class="fas fa-fax"></i>
+                        <a href="tel:{{company-phone}}" alt="Company Fax">{{company-fax}}</a>
+                      </div>
+                      <div class="address-icon">
+                        <i class="fas fa-home"></i>
+                        <a href="mailto:{{company-email}}" alt="Company-Email">{{company-email}}</a>
+                      </div>
+                    </div>
+                  <div class="col-lg-5 text-right">
+                      <div class="custom-page-top">
+                        {{#menu-tippity-top}}
+                        <a href="{{link-to}}">{{link-name}}</a>
+                        {{/menu-tippity-top}}
+                      <div class="social_top_header">
+                        {{#company-social}}
+                          <a href="{{link}}"><i class="fab fa-{{type}}" aria-hidden="true"></i></a>
+                        {{/company-social}}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- #navigation start -->
+      <nav class="navbar navbar-default navbar-expand-md navbar-light" id="navigation" data-offset-top="1">
+          <!-- .container -->
+          <div class="container">
+              <!-- Logo and Menu -->
+              <div class="navbar-header">
+                  <div class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Logo"/></a></div>
+                  <!-- site logo -->
+              </div>
+              <!-- Menu Toogle -->
+                  <div class="burger-icon">
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                  </div>
+              <div class="collapse navbar-collapse " id="navbarCollapse">
+                  <ul class="nav navbar-nav ml-auto">
+                      {{#menu-top}}
+                      <li><a href="{{link-to}}">{{link-name}}</a></li>
+                      {{/menu-top}}
+                  </ul>
+                  <div class="header-cta">
+                      <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
+                  </div>
+              </div>
+              <!-- Menu Toogle end -->
+          </div>
+          <!-- .container end -->
+      </nav>
+      <!-- #navigation end -->
+  </header>
+  <!-- end header area -->
 <main>
   <!-- header content area start -->
     <div class="video-play">
         <div class="image-overly-primary cover">
             <div class="videobg loaded" data-background="images/content/landing/video-overlay.jpg" style="background-image: url(images/content/landing/video-overlay.jpg);">
-                <video poster="images/content/landing/video-overlay.jpg" playsinline="" autoplay="" muted="" loop="">
-                    <source src="video/print.mp4" type="video/mp4">
+                <video poster="{{landing-video-alt-image}}" playsinline="" autoplay="" muted="" loop="">
+                    {{#landing-video}}
+                    <source src="{{link}}" type="{{type}}">
+                    {{/landing-video}}
                 </video>
             </div>
             <!-- End Video -->
@@ -137,21 +113,21 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
-                        <div><span class="subtitle ">Fast Turnaround</span></div>
-                        <h1 class="title">For Your Custom
+                        <div><span class="subtitle ">{{typer-title}}</span></div>
+                        <h1 class="title">{{typer-initial}}
                             <span id="typed-strings">
-                            <span>PCB Design</span>
-                            <span>3D Print</span>
-                            <span>CAD Model</span>
+                              {{#typer-lines}}
+                              <span>{{text}}</span>
+                              {{/typer-lines}}
                         </span>
                             <span id="typed"></span>
                         </h1>
-                        <p>Design. Print. Model.
+                        <p>{{typer-sub-blurb}}
                         </p>
                         <div class="btn-section">
-                            <a href="services.html" class="color-two btn-custom">See the Process<i class="fas fa-arrow-right"></i></a>
+                            <a href="{{typer-button-link-to}}" class="color-two btn-custom">{{typer-button-text}}<i class="fas fa-arrow-right"></i></a>
                             <div class="video-relative">
-                            <a href="https://www.youtube.com/watch?v=TKnufs85hXk" class="video-btn popup-video ">
+                            <a href="{{typer-popup-video}}" class="video-btn popup-video ">
                                 <i class="fas fa-play"></i>
                                 <span class="ripple orangebg"></span>
                                 <span class="ripple orangebg"></span>
@@ -179,52 +155,30 @@
         <!-- .container -->
         <div class="container">
             <div class="post-heading-center section-title mb-60">
-                <h2>How it works?</h2>
-                <p>Can't decide which service to choose? Take a look at popular
+                <h2>{{services-title}}</h2>
+                <p>{{services-blurb}}
                 </p>
             </div>
             <!-- .row -->
             <div class="row">
+                {{#services}}
                 <div class="col-xs-12 col-sm-12 col-md-4">
                     <!-- 1 -->
+
                     <div class="single-features-light text-center"><!-- single features -->
                         <div class="move">
                             <!-- uses solid style -->
-                            <i class="secondary-color fas fa-drafting-compass fa-3x"></i>
-                            <h4><a href="#">Design</a></h4>
-                            <p>Business Consultancy International is your gateway to a successful future in business. Start today to learn more.</p>
+                            <i class="secondary-color fas {{block-icon}} fa-3x"></i>
+                            <h4><a href="#">{{title}}</a></h4>
+                            <p>{{blurb}}</p>
                             <div class="feature_link">
-                                <a href="#">START TODAY <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{link}}">{{button-title}} <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div><!-- end single features -->
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
-                    <!-- 2 -->
-                    <div class="single-features-light text-center"><!-- single features -->
-                        <div class="move">
-                            <i class="secondary-color fas fa-pencil-ruler fa-3x"></i>
-                            <h4><a href="#">Print</a></h4>
-                            <p>Business Consultancy International is your gateway to a successful future in business. Start today to learn more.</p>
-                            <div class="feature_link">
-                                <a href="#">START TODAY <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- end single features -->
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 ">
-                    <!-- 3 -->
-                    <div class="single-features-light text-center"><!-- single features -->
-                        <div class="move">
-                            <i class="secondary-color fas fa-warehouse fa-3x"></i>
-                            <h4><a href="#">Model</a></h4>
-                            <p>Business Consultancy International is your gateway to a successful future in business. Start today to learn more.</p>
-                            <div class="feature_link">
-                                <a href="#">LEARN MORE <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- end single features -->
-                </div>
+                {{/services}}
+
             </div>
             <!-- .row end -->
         </div>
@@ -232,62 +186,13 @@
     </div>
     <!-- features area end -->
 
-    <!-- members area start -->
-    <div id="members" class="wrap-bg wrap-bg-dark">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-8">
-                    <div class="section-title with-p">
-                        <span class="bg-start-light">Our Expert</span>
-                        <h2>Meet the Engineering Team</h2>
-                        <p>All our Team are certified and highly qualified, with the majority holding advanced. Our
-                            staff also takes part in regular programs.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row carousel-slider gallery-slider">
-                <div class="col-lg-4">
-                    <article class="item"><!-- single teacher -->
-                        <a href="images/content/team/alex.jpg" class="fancybox"
-                           data-fancybox-group="images_gallery"><img src="images/content/team/alex.jpg" alt="Image 1"/></a>
-                        <h5>Alex Camilo</h5>
-                        <span>Sales Manager</span>
-                        <p>Sales Manager is an academic rank used in universities or colleges in the United States, Canada, and some other countries.</p>
-                    </article><!-- end single teacher -->
-                </div>
-                <div class="col-sm-4">
-                    <article class="item">
-                        <a href="images/content/team/danyel.jpg" class="fancybox"
-                           data-fancybox-group="images_gallery"><img src="images/content/team/danyel.jpg" alt="Image 2"/></a>
-                        <h5>Danyel Pollock</h5>
-                        <span>Engineer</span>
-                        <p>A bachelor's degree in psychology is ideal for would-be professors in this field. Although most psychology Ph.D. programs.</p>
-                    </article><!-- end single teacher -->
-                </div>
-                <div class="col-sm-4">
-                    <article class="item"><!-- single teacher -->
-                        <a href="images/content/team/jansen.jpg" class="fancybox"
-                           data-fancybox-group="images_gallery"><img src="images/content/team/jansen.jpg" alt="Image 3"/></a>
-                        <h5>Jansen Smith</h5>
-                        <span>Chief Executive Officer</span>
-                        <p>A bachelor's degree in psychology is ideal for would-be professors in this field. Although most psychology Ph.D. programs.</p>
-                    </article><!-- end single teacher -->
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- members area end -->
-
     <!-- newsletter area start -->
     <div id="newsletter">
         <div class="container">
             <div class="footer-subscribe">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <h5 class="subscribe-text">Subscribe to our mailting list for latest updates with flat <b>10%
-                            discount</b> promo code.
+                        <h5 class="subscribe-text">{{{mailing-list-blurb}}}
                         </h5>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -310,6 +215,7 @@
     <!-- newsletter area end -->
 </main>
 
+
 <!-- #footer area start -->
 <footer id="footer">
     <div class="footer-top">
@@ -318,18 +224,16 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-sm-6"><!-- footer widget -->
                     <div class="f-widget-title">
-                        <h4>Baustelle</h4>
+                        <h4>{{footer-about-blurb-title}}</h4>
                     </div>
                     <div class="footer-text">
-                        <p>Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam rem aperam
-                            eaque ipsa quae.
+                        <p>{{footer-about-blurb}}
                         </p>
                     </div>
                     <div class="icon-round-white footer-social mt-25">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" title="Google+"><i class="fab fa-google-plus"></i></a>
+                      {{#company-social}}
+                        <a href="{{link}}" title="{{type}}"><i class="fab fa-{{type}}"></i></a>
+                      {{/company-social}}
                     </div>
                 </div><!-- footer widget -->
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6"><!-- footer widget -->
@@ -338,29 +242,15 @@
                     </div>
                     <div class="f-widget-link">
                         <ul>
+                          {{#footer-quick-links}}
                             <!-- Menu Link -->
-                            <li><a href="#header">Home</a></li>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#screenshots">Screenshots</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#download">Download</a></li>
+                            <li><a href="{{link-to}}">{{link-name}}</a></li>
+                          {{/footer-quick-links}}
                         </ul>
                     </div>
                 </div><!-- footer widget -->
                 <div class="col-xl-2 offset-xl-1 col-lg-3 col-sm-6"><!-- footer widget -->
-                    <div class="f-widget-title">
-                        <h4>About</h4>
-                    </div>
-                    <div class="f-widget-link">
-                        <ul>
-                            <!-- Menu Link -->
-                            <li><a href="#header">Home</a></li>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#screenshots">Screenshots</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#download">Download</a></li>
-                        </ul>
-                    </div>
+
                 </div><!-- footer widget -->
                 <div class="col-xl-3 col-lg-3 col-sm-6"><!-- footer widget -->
                     <div class="f-widget-title">
@@ -370,21 +260,29 @@
                         <div class="address-icon">
                             <i class="fas fa-home"></i>
                         </div>
-                        <p>No.123 Chalingt Gates,
-                            Supper market New York
+                        <p>{{company-address.first-line}},
+                          {{company-address.second-line}}
+                          {{company-address.city}},{{company-address.state}} {{company-address.zip}}
+                          {{company-address.country}}
                         </p>
                     </div>
                     <div class="sigle-address">
                         <div class="address-icon">
                             <i class="far fa-envelope-open"></i>
                         </div>
-                        <p>support@gmail.com</p>
+                        <p>{{company-email}}</p>
                     </div>
                     <div class="sigle-address">
                         <div class="address-icon">
-                            <i class="fas fa-headphones"></i>
+                            <i class="fas fa-phone"></i>
                         </div>
-                        <p>+012 (4567) 789</p>
+                        <p>{{company-phone}}</p>
+                    </div>
+                    <div class="sigle-address">
+                        <div class="address-icon">
+                            <i class="fas fa-fax"></i>
+                        </div>
+                        <p>{{company-fax}}</p>
                     </div>
                 </div><!-- footer widget -->
             </div>
@@ -399,14 +297,17 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="copyright">
-                    <p>©2019 Baustelle. All Rights Reserved. Designed By <a href="http://www.drozd.at/" title="ThemeIoan" target="_blank">ThemeIoan</a>
+                    <p>©{{copyright-date}} {{company-name}}. All Rights Reserved. Designed By <a href="http://www.drozd.at/" title="ThemeIoan" target="_blank">ThemeIoan</a>
                     </p>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="copyright text-right">
-                    <p><a href="#"  target="_blank">Services</a> <a href="#"  target="_blank">Blog</a> <a href="#"  target="_blank">Services</a> <a href="#"  target="_blank">Events</a> <a href="#"  target="_blank">Contact</a>
-                    </p>
+                  <p>
+                  {{#menu-bippity-bottom}}
+                    <a href="{{link-to}}"  target="_blank">{{link-name}}</a>
+                  {{/menu-bippity-bottom}}
+                  </p>
                 </div>
             </div>
         </div>

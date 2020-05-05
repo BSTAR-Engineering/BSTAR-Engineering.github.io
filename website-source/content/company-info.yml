@@ -11,12 +11,18 @@ company-phone: (774) 224-9563
 company-fax: (774) 224-9568
 company-email: info@bstarengineering.com
 
+company-name: B-STAR, DBA
+copyright-date: 2020
+
 company-social:
-  facebook: false
-  twitter: false
-  instagram: false
-  linkedin: false
-  github: false
+  - type: facebook
+    link: "#"
+  - type: twitter
+    link: "#"
+  - type: behance
+    link: "#"
+  - type: google-plus
+    link: "#"
 
 # Text for the about us for our members.
 about-title: Meet the Team
@@ -51,32 +57,46 @@ members:
 typer-title: Fast Turnaround
 typer-initial: For Your Custom
 typer-lines:
-  - Cad Model
-  - Printed Circut Board
-  - Prototype
-  - 3D printed part
-
+  - text: Cad Model
+  - text: Printed Circut Board
+  - text: Prototype
+  - text: 3D printed part
+typer-sub-blurb: Design. Print. Model.
+typer-button-text: LOOK AT THE THING
+typer-button-link-to: "#"
+typer-popup-video: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 # Landing video on the front page
-landing-video: video/print.mp4
+landing-video:
+  - link: video/print.mp4
+    type: video/mp4
+
+landing-video-alt-image: images/content/landing/video-overlay.jpg
 
 # Front page services section
-services-title: "How it works?"
-services-blurb: "Can't decide which service to choose? Take a look at popular"
+services-title: "How does it works?"
+services-blurb: "I don't know either! but if you pay us we can begin figuring it out for you!"
 services:
   - title: Design
+    block-icon: fa-anchor
     blurb: unde om is nerror sit voluptatem accustium
-    icon: compass
-    link: services/prototyping
+    link: services/printing
+    button-title: Hellz Yeah!
 
   - title: Print
+    block-icon: fa-pencil-ruler
     blurb: unde om is nerror sit voluptatem accustium
-    icon: compass
     link: services/printing
+    button-title: KA ME HA ME..... HA
 
   - title: Model
+    block-icon: fa-warehouse
     blurb: unde om is nerror sit voluptatem accustium
-    icon: compass
     link: services/Modeling
+    button-title: AAAAAAAAAAAAAAAgh!
+
+
+
+mailing-list-blurb: Subscribe to our mailting list for latest updates and <b>100% awesome</b> spam!
 
 # Content on the footer section
 footer-about-blurb-title: Our Mission
@@ -90,6 +110,22 @@ footer-quick-links:
     link-to: about
 
 #The site menu bar.
+menu-action-button:
+  text: POTATO!!
+  link-to: "#"
+
+menu-tippity-top:
+  - link-name: News
+    link-to: index.html
+  - link-name: Privacy Policy
+    link-to: pricing
+
+menu-bippity-bottom:
+  - link-name: News
+    link-to: index.html
+  - link-name: Privacy Policy
+    link-to: pricing
+
 menu-top:
   - link-name: Home
     link-to: index.html
