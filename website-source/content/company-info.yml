@@ -1,0 +1,91 @@
+company-address:
+  first-line: 41 dover st
+  second-line: Suite 1
+  city: Worcester
+  state: Ma
+  zip: 01609
+  country: USA
+
+company-phone: (774) 224-9563
+company-fax: (774) 224-9568
+
+company-social:
+  facebook: false
+  twitter: false
+  instagram: false
+  linkedin: false
+  github: false
+
+about-title: Meet the Team
+about-blurb: We are very smart people and can do work good.
+members:
+  -
+    bio: "Alex Camilo graduated with a bachelors in electrical and computer engineering from Worcester Polytechnic University. After graduation he was a co-founder of neuron robotics, an education focused robotics startup.Later,  he has worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly. He has worked on projects involving medical robotics, IOT, wireless communications,environmental sensing, and robotics education.  He is currently a lab manager at Worcester polytechnic and assists in curriculum development."
+    email: Alex@bstarengineering.com
+    name-first: Alex
+    name-last: Camilo
+    phone-extension: 101
+    role: Engineering
+    photo: photos/alex.png
+  -
+    bio: "Jansen Smith majored in Robotics Engineering and Physics at Worcester Polytechnic Institute in Worcester, Massachusetts. He oversees operations for the firm and lends personal attention to completing every client project on time and with the highest level of satisfaction."
+    email: Jansen@bstarengineering.com
+    name-first: Jansen
+    name-last: Smith
+    phone-extension: 301
+    role: "Project Management"
+    photo: photos/jansen.png
+  -
+    bio: "Danyel Pollock majored in Economics and Marketing at the University of Massachusetts Lowell. She works with BStar to reach new customers and implement our firm's vision of providing rockstar customer experiences."
+    email: Danyel@bstarengineering.com
+    name-first: Danyel
+    name-last: Pollock
+    phone-extension: 201
+    role: "Customer Experience"
+    photo: photos/danyel.png
+typer-title: Fast Turnaround
+typer-initial: For Your Custom
+typer-lines:
+  - Cad Model
+  - Printed Circut Board
+  - Prototype
+  - 3D printed part
+
+landing-video: video/print.mp4
+
+services-title: "How it works?"
+services-blurb: "Can't decide which service to choose? Take a look at popular"
+services:
+  - title: Design
+    blurb: unde om is nerror sit voluptatem accustium
+    icon: compass
+    link: services/prototyping
+
+  - title: Print
+    blurb: unde om is nerror sit voluptatem accustium
+    icon: compass
+    link: services/printing
+
+  - title: Model
+    blurb: unde om is nerror sit voluptatem accustium
+    icon: compass
+    link: services/Modeling
+
+footer-about-blurb: Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam rem aperam eaque ipsa quae.
+footer-quick-links:
+  - link-name: Home
+    link-to: index
+  - link-name: Pricing
+    link-to: pricing
+  - link-name: About
+    link-to: about
+
+menu-top:
+  - link-name: Home
+    link-to: index
+  - link-name: Pricing
+    link-to: pricing
+  - link-name: About
+    link-to: about
+  - link-name: Contact Us
+    link-to: contact
