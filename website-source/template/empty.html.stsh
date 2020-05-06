@@ -8,7 +8,7 @@
     <meta name="author" content="Ioan Drozd"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Title -->
-    <title>Baustelle - Construction HTML Template</title>
+    <title>{{company-name}} - Empty</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!-- Bootstrap  -->
