@@ -11,7 +11,7 @@ company-phone: (774) 224-9563
 company-fax: (774) 224-9568
 company-email: info@bstarengineering.com
 
-company-name: B-STAR, LLC
+company-name: B-STAR, DBA
 copyright-date: 2020
 
 company-social:
@@ -26,7 +26,7 @@ company-social:
 
 # Text for the about us for our members.
 about-title: Meet the Team
-about-blurb: We are very smart people and can do work good.
+about-blurb: We are totally smart people and can do work good.
 members:
   -
     bio: "Alex Camilo graduated with a bachelors in electrical and computer engineering from Worcester Polytechnic Institute. After graduation he was a co-founder of neuron robotics, an education focused robotics startup.Later,  he has worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly."
@@ -42,7 +42,7 @@ members:
     name-first: Jansen
     name-last: Smith
     phone-extension: 301
-    role: "Project Management"
+    role: "Supreme Mugwump"
     photo: images/content/team/jansen.jpg
   -
     bio: "Danyel Pollock majored in Economics and Marketing at the University of Massachusetts Lowell. She works with BStar to reach new customers and implement our firm's vision of providing rockstar customer experiences."
@@ -113,7 +113,7 @@ footer-quick-links:
 
 #The site menu bar.
 menu-action-button:
-  text: POTATO!!
+  text: BOIL 'EM MASH 'EM!!
   link-to: "#"
 
 menu-tippity-top:
