@@ -10,7 +10,7 @@ from pathlib import Path
 
 def on_modified(event):
     pyexec=os.path.split(Path(sys.executable))[1]
-    os.system("%s generateWebsite.py website-source/content/content.yml website-source/template website"%(pyexec))
+    os.system("%s generateWebsite.py website-source/content website-source/template website"%(pyexec))
 
 if __name__ == "__main__":
     pyexec=os.path.split(Path(sys.executable))[1]
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     my_event_handler.on_moved = on_modified
     path = "website-source"
     go_recursively = True
-    os.system("%s generateWebsite.py website-source/content/content.yml website-source/template website"%(pyexec))
+    os.system("%s generateWebsite.py website-source/content website-source/template website"%(pyexec))
     my_observer = Observer()
     my_observer.schedule(my_event_handler, path, recursive=go_recursively)
     my_observer.start()

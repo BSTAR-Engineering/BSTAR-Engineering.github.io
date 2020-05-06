@@ -31,11 +31,33 @@ def processFile(path,file,source,dest,contents):
     else:
         shutil.copyfile(file_from,file_to)
 
+def loadContent(content_path):
+    # Is this a directory or a file?
+    data={}
+    if os.path.isfile(content_path):
+        # just load it
+        filename,filext = os.path.splitext(file)
+        if filext=='.yml':
+            data = yaml.load(open(content_path), Loader=yaml.Loader)
+    else:
+        #Walk through all nested directories and load any yml files.
+        for subdir, dirs, files in os.walk(content_path):
+            for file in files:
+                file_from = os.path.join(subdir,file)
+                filename,filext = os.path.splitext(file)
+                if filext==".yml":
+                    print("Loading content file '%s'"%(file))
+                    data_part = yaml.load(open(file_from), Loader=yaml.Loader)
+                    data.update(data_part)
+            # merge, replace same-key-values unless its an array in wich case, append
+
+    return data
+
 if len(sys.argv)<4:
     print("Not enough args!")
     exit(-1)
 yaml_file = sys.argv[1]
-data = yaml.load(open(yaml_file), Loader=yaml.Loader)
+data = loadContent(yaml_file)
 source_dir = sys.argv[2]
 dest_dir = sys.argv[3]
 
