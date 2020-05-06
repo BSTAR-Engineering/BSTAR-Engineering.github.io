@@ -60,6 +60,11 @@
 ================================================== */
 
 
+.form-button-submitted {
+  border-color: #aaaaaa;
+  background: #333333;
+}
+
 /*-----------------
     @Typography
 -----------------*/
