@@ -34,7 +34,7 @@ members:
     name-first: Alex
     name-last: Camilo
     phone-extension: 101
-    role: Engineering
+    role: Ommpah Loompah Techadee Dooo..
     photo: images/content/team/alex.jpg
   -
     bio: "Jansen Smith majored in Robotics Engineering and Physics at Worcester Polytechnic Institute in Worcester, Massachusetts. He oversees operations for the firm and lends personal attention to completing every client project on time and with the highest level of satisfaction."
@@ -42,7 +42,7 @@ members:
     name-first: Jansen
     name-last: Smith
     phone-extension: 301
-    role: "Supreme Mugwump"
+    role: "Supreme Nerd Wrangler"
     photo: images/content/team/jansen.jpg
   -
     bio: "Danyel Pollock majored in Economics and Marketing at the University of Massachusetts Lowell. She works with BStar to reach new customers and implement our firm's vision of providing rockstar customer experiences."
@@ -50,7 +50,7 @@ members:
     name-first: Danyel
     name-last: Pollock
     phone-extension: 201
-    role: "Customer Experience"
+    role: "Penultimate WumpMug"
     photo: images/content/team/danyel.jpg
 
 # The type-out-a-rsponse animation that plays over the movie
