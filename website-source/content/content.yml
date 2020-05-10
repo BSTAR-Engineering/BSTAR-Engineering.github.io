@@ -81,19 +81,19 @@ services:
   - title: Design
     block-icon: fa-anchor
     blurb: unde om is nerror sit voluptatem accustium
-    link: services/printing
+    link: design.html
     button-title: Hellz Yeah!
 
   - title: Print
     block-icon: fa-pencil-ruler
     blurb: unde om is nerror sit voluptatem accustium
-    link: services/printing
+    link: print.html
     button-title: KA ME HA ME..... HA
 
   - title: Model
     block-icon: fa-warehouse
     blurb: unde om is nerror sit voluptatem accustium
-    link: services/Modeling
+    link: model.html
     button-title: AAAAAAAAAAAAAAAgh!
 
 
