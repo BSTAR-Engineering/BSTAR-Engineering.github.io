@@ -1,9 +1,9 @@
 # Company Information
 company-address:
-  first-line: 41 dover st
+  first-line: 41 Dover St.
   second-line: Suite 1
   city: Worcester
-  state: Ma
+  state: MA
   zip: 01609
   country: USA
 
@@ -81,24 +81,24 @@ services:
   - title: Design
     block-icon: fa-anchor
     blurb: unde om is nerror sit voluptatem accustium
-    link: services/printing
+    link: design.html
     button-title: Hellz Yeah!
 
   - title: Print
     block-icon: fa-pencil-ruler
     blurb: unde om is nerror sit voluptatem accustium
-    link: services/printing
+    link: print.html
     button-title: KA ME HA ME..... HA
 
   - title: Model
     block-icon: fa-warehouse
     blurb: unde om is nerror sit voluptatem accustium
-    link: services/Modeling
+    link: model.html
     button-title: AAAAAAAAAAAAAAAgh!
 
 
 
-mailing-list-blurb: Subscribe to our mailting list for latest updates and <b>100% awesome</b> spam!
+mailing-list-blurb: Subscribe to our mailing list for latest updates and <b>100% awesome</b> spam!
 
 # Content on the footer section
 footer-about-blurb-title: Our Mission

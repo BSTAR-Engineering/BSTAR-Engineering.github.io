@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metas Basic -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="description" content="Baustelle - Education Services School Template"/>
+    <meta name="keywords" content="Landing Page, Services, Learning"/>
+    <meta name="author" content="Ioan Drozd"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Title -->
+    <title>{{company-name}} - Empty</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl carousel theme default CSS file -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- owl carousel CSS file -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Slick  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- jQuery Fancybox  -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+</head>
+<body>
+<!-- header area start -->
+<header id="header" class="transparent-header">
+    <div class="topheader top_header_light hidemobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="address-icon">
+                      <i class="fas fa-phone"></i>
+                      <a href="tel:{{company-phone}}" alt="Company Phone">{{company-phone}}</a>
+                    </div>
+                    <div class="address-icon">
+                      <i class="fas fa-fax"></i>
+                      <a href="tel:{{company-phone}}" alt="Company Fax">{{company-fax}}</a>
+                    </div>
+                    <div class="address-icon">
+                      <i class="fas fa-home"></i>
+                      <a href="mailto:{{company-email}}" alt="Company-Email">{{company-email}}</a>
+                    </div>
+                  </div>
+                <div class="col-lg-5 text-right">
+                    <div class="custom-page-top">
+                      {{#menu-tippity-top}}
+                      <a href="{{link-to}}">{{link-name}}</a>
+                      {{/menu-tippity-top}}
+                    <div class="social_top_header">
+                      {{#company-social}}
+                        <a href="{{link}}"><i class="fab fa-{{type}}" aria-hidden="true"></i></a>
+                      {{/company-social}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #navigation start -->
+    <nav class="navbar navbar-default navbar-expand-md navbar-light" id="navigation" data-offset-top="1">
+        <!-- .container -->
+        <div class="container">
+            <!-- Logo and Menu -->
+            <div class="navbar-header">
+                <div class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Logo"/></a></div>
+                <!-- site logo -->
+            </div>
+            <!-- Menu Toogle -->
+                <div class="burger-icon">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            <div class="collapse navbar-collapse " id="navbarCollapse">
+                <ul class="nav navbar-nav ml-auto">
+                    {{#menu-top}}
+                    <li><a href="{{link-to}}">{{link-name}}</a></li>
+                    {{/menu-top}}
+                </ul>
+                <div class="header-cta">
+                    <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
+                </div>
+            </div>
+            <!-- Menu Toogle end -->
+        </div>
+        <!-- .container end -->
+    </nav>
+    <!-- #navigation end -->
+</header>
+<!-- end header area -->
+<main>
+
+
+
+
+{{test-value}}
+
+</main>
+
+<!-- #footer area start -->
+<footer id="footer">
+    <div class="footer-top">
+        <!-- .container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-sm-6"><!-- footer widget -->
+                    <div class="f-widget-title">
+                        <h4>{{footer-about-blurb-title}}</h4>
+                    </div>
+                    <div class="footer-text">
+                        <p>{{footer-about-blurb}}
+                        </p>
+                    </div>
+                    <div class="icon-round-white footer-social mt-25">
+                      {{#company-social}}
+                        <a href="{{link}}" title="{{type}}"><i class="fab fa-{{type}}"></i></a>
+                      {{/company-social}}
+                    </div>
+                </div><!-- footer widget -->
+                <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6"><!-- footer widget -->
+                    <div class="f-widget-title">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <div class="f-widget-link">
+                        <ul>
+                          {{#footer-quick-links}}
+                            <!-- Menu Link -->
+                            <li><a href="{{link-to}}">{{link-name}}</a></li>
+                          {{/footer-quick-links}}
+                        </ul>
+                    </div>
+                </div><!-- footer widget -->
+                <div class="col-xl-2 offset-xl-1 col-lg-3 col-sm-6"><!-- footer widget -->
+
+                </div><!-- footer widget -->
+                <div class="col-xl-3 col-lg-3 col-sm-6"><!-- footer widget -->
+                    <div class="f-widget-title">
+                        <h4>Contact us</h4>
+                    </div>
+                    <div class="sigle-address">
+                        <div class="address-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <p>{{company-address.first-line}},
+                          {{company-address.second-line}}
+                          {{company-address.city}},{{company-address.state}} {{company-address.zip}}
+                          {{company-address.country}}
+                        </p>
+                    </div>
+                    <div class="sigle-address">
+                        <div class="address-icon">
+                            <i class="far fa-envelope-open"></i>
+                        </div>
+                        <p>{{company-email}}</p>
+                    </div>
+                    <div class="sigle-address">
+                        <div class="address-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>{{company-phone}}</p>
+                    </div>
+                    <div class="sigle-address">
+                        <div class="address-icon">
+                            <i class="fas fa-fax"></i>
+                        </div>
+                        <p>{{company-fax}}</p>
+                    </div>
+                </div><!-- footer widget -->
+            </div>
+            <!-- to top -->
+            <div class="cd-top"><i class="fas fa-level-up-alt"></i></div>
+        </div>
+    </div>
+    <!-- .container end -->
+
+    <!-- #footer bottom start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="copyright">
+                    <p>©{{copyright-date}} {{company-name}}. All Rights Reserved. Designed By <a href="http://www.drozd.at/" title="ThemeIoan" target="_blank">ThemeIoan</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="copyright text-right">
+                  <p>
+                  {{#menu-bippity-bottom}}
+                    <a href="{{link-to}}"  target="_blank">{{link-name}}</a>
+                  {{/menu-bippity-bottom}}
+                  </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- to top -->
+        <div class="cd-top">Top</div>
+
+    </div>
+    <!-- #footer bottom end -->
+</footer>
+<!-- #footer area end -->
+
+    <!-- JavaScript File -->
+    <!-- jQuery -->
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <!-- Main -->
+    <script src='js/main.js'></script>
+    <!-- Bootstrap -->
+    <script src='js/bootstrap.min.js'></script>
+    <!-- Slick -->
+    <script src='js/slick.min.js'></script>
+    <!-- Fancybox -->
+    <script src='js/jquery.fancybox.pack.js'></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Waypoints -->
+    <script src='js/waypoints.min.js'></script>
+    <!-- Counterup -->
+    <script src='js/jquery.counterup.min.js'></script>
+    <!-- owl carousel -->
+    <script src='js/owl.carousel.min.js'></script>
+    <!-- Typed Animation Library -->
+    <script src="js/typed.min.js"></script>
+
+</body>
+</html>
