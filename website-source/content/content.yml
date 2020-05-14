@@ -113,7 +113,7 @@ footer-quick-links:
 
 #The site menu bar.
 menu-action-button:
-  text: BOIL 'EM MASH 'EM!!
+  text: "\"BOIL\" 'EM MASH 'EM!!"
   link-to: "#"
 
 menu-tippity-top:
