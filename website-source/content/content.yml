@@ -98,7 +98,7 @@ services:
 
 
 
-mailing-list-blurb: Subscribe to our mailting list for latest updates and <b>100% awesome</b> spam!
+mailing-list-blurb: Subscribe to our mailing list for latest updates and <b>100% awesome</b> spam!
 
 # Content on the footer section
 footer-about-blurb-title: Our Mission
@@ -113,7 +113,7 @@ footer-quick-links:
 
 #The site menu bar.
 menu-action-button:
-  text: BOIL 'EM MASH 'EM!!
+  text: PUT THEM IN A STEW!!
   link-to: "#"
 
 menu-tippity-top:
