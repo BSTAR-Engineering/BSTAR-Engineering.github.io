@@ -123,6 +123,7 @@
                       {{/company-social}}
                     </div>
                 </div><!-- footer widget -->
+                {{#footer-quick-links-enable}}
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6"><!-- footer widget -->
                     <div class="f-widget-title">
                         <h4>Quick Links</h4>
@@ -136,6 +137,7 @@
                         </ul>
                     </div>
                 </div><!-- footer widget -->
+                {{/footer-quick-links-enable}}
                 <div class="col-xl-2 offset-xl-1 col-lg-3 col-sm-6"><!-- footer widget -->
 
                 </div><!-- footer widget -->
@@ -188,6 +190,7 @@
                     </p>
                 </div>
             </div>
+            {{#menu-bippity-bottom-enable}}
             <div class="col-sm-6">
                 <div class="copyright text-right">
                   <p>
@@ -197,6 +200,7 @@
                   </p>
                 </div>
             </div>
+            {{/menu-bippity-bottom-enable}}
         </div>
 
         <!-- to top -->
@@ -205,7 +209,7 @@
     </div>
     <!-- #footer bottom end -->
 </footer>
-<!-- #footer area end -->
+
 
     <!-- JavaScript File -->
     <!-- jQuery -->

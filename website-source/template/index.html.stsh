@@ -96,8 +96,9 @@
   <!-- end header area -->
 <main>
   <!-- header content area start -->
+  {{#landing-video-enable}}
     <div class="video-play">
-        <div class="image-overly-primary cover">
+        <div class="image-overly-primary">
             <div class="videobg loaded" data-background="images/content/landing/video-overlay.jpg" style="background-image: url(images/content/landing/video-overlay.jpg);">
                 <video poster="{{landing-video-alt-image}}" playsinline="" autoplay="" muted="" loop="">
                     {{#landing-video}}
@@ -113,6 +114,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
+                        {{#typer-enable}}
                         <div><span class="subtitle ">{{typer-title}}</span></div>
                         <h1 class="title">{{typer-initial}}
                             <span id="typed-strings">
@@ -124,17 +126,24 @@
                         </h1>
                         <p>{{typer-sub-blurb}}
                         </p>
-                        <div class="btn-section">
+                        {{/typer-enable}}
+                        {{#typer-video-link-enable}}
+                        <div class="">
                             <a href="{{typer-button-link-to}}" class="color-two btn-custom">{{typer-button-text}}<i class="fas fa-arrow-right"></i></a>
+  <!--
                             <div class="video-relative">
+
                             <a href="{{typer-popup-video}}" class="video-btn popup-video ">
                                 <i class="fas fa-play"></i>
                                 <span class="ripple orangebg"></span>
                                 <span class="ripple orangebg"></span>
                                 <span class="ripple orangebg"></span>
                             </a>
+
                             </div>
+                                                      -->
                         </div>
+                        {{/typer-video-link-enable}}
                     </div>
                 </div>
             </div>
@@ -144,12 +153,13 @@
     </div>
     </div>
 </div>
+{{/landing-video-enable}}
 <!-- end header content area start -->
 
 
 
 
-
+{{#feature-area-three}}
     <!-- features area start -->
     <div id="features" class="wrap-bg">
         <!-- .container -->
@@ -185,6 +195,36 @@
         <!-- .container end -->
     </div>
     <!-- features area end -->
+    {{/feature-area-three}}
+    {{#feature-area-list}}
+    <div id="features" class="wrap-bg">
+            <!-- .container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section-title section-text-left">
+                            <div>
+                                <h3>{{feature-area-list-title}}</h3>
+                                <p>{{feature-area-list-paragraph}}</p>
+                                {{#feature-area-list-points}}
+                                <ul class="themeioan_ul_icon">
+                                    <li><i class="fas fa-check-circle"></i> {{text}}</li>
+                                </ul>
+                                {{/feature-area-list-points}}
+                                <br><br>
+                                
+                                    <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/pencil-pen-marker-notepad.jpg" alt="notebook">
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/feature-area-list}}
 
     <!-- newsletter area start -->
     <div id="newsletter">
@@ -236,6 +276,7 @@
                       {{/company-social}}
                     </div>
                 </div><!-- footer widget -->
+                {{#footer-quick-links-enable}}
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6"><!-- footer widget -->
                     <div class="f-widget-title">
                         <h4>Quick Links</h4>
@@ -249,6 +290,7 @@
                         </ul>
                     </div>
                 </div><!-- footer widget -->
+                {{/footer-quick-links-enable}}
                 <div class="col-xl-2 offset-xl-1 col-lg-3 col-sm-6"><!-- footer widget -->
 
                 </div><!-- footer widget -->
@@ -301,6 +343,7 @@
                     </p>
                 </div>
             </div>
+            {{#menu-bippity-bottom-enable}}
             <div class="col-sm-6">
                 <div class="copyright text-right">
                   <p>
@@ -310,6 +353,7 @@
                   </p>
                 </div>
             </div>
+            {{/menu-bippity-bottom-enable}}
         </div>
 
         <!-- to top -->

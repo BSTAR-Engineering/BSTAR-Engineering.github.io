@@ -15,21 +15,21 @@ company-name: B-STAR, LLC
 copyright-date: 2020
 
 company-social:
-  - type: facebook
-    link: "#"
-  - type: twitter
-    link: "#"
-  - type: behance
-    link: "#"
-  - type: google-plus
-    link: "#"
+#  - type: facebook
+#    link: "#"
+#  - type: twitter
+#    link: "#"
+#  - type: behance
+#    link: "#"
+#  - type: google-plus
+#    link: "#"
 
 # Text for the about us for our members.
 about-title: Meet the Team
 about-blurb: We're excited to get started on your next project
 members:
   -
-    bio: "Alex Camilo majored in electrical and computer engineering at Worcester Polytechnic University. After graduation, he was a co-founder of Neuron Robotics, an education-focused robotics startup. He has also worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly. He has worked on projects involving medical robotics, IOT, wireless communications, environmental sensing, and robotics education. He is currently a lab manager at Worcester Polytechnic Institute and assists in curriculum development."
+    bio: "Alex Camilo majored in electrical and computer engineering at Worcester Polytechnic University. After graduation, he was a co-founder of Neuron Robotics. He has worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly on projects involving medical robotics, IOT, wireless communications, environmental sensing, and robotics education."
     email: Alex@bstarengineering.com
     name-first: Alex
     name-last: Camilo
@@ -54,20 +54,21 @@ members:
     photo: images/content/team/danyel.jpg
 
 # The type-out-a-rsponse animation that plays over the movie
-typer-title: Fast Turnaround
-typer-initial: For Your Custom
+typer-title: Proof of concept electronic devices
+typer-initial: For
 typer-lines:
-  - text: Cad Model
-  - text: Printed Circut Board
-  - text: Prototype
-  - text: 3D printed part
-typer-sub-blurb: Design. Print. Model.
-typer-button-text: LOOK AT THE THING
-typer-button-link-to: "#"
-typer-popup-video: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  - text: technology demonstrations.
+  - text: early stage product development.
+#typer-sub-blurb: Design. Print. Model.
+typer-button-text: Learn More
+typer-button-link-to: "#features"
+#typer-popup-video: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+typer-enable: true
+typer-video-link-enable: true
 # Landing video on the front page
 # these are not altrnate videos but alternate versions of the same video in different formats
 # to support some browsers with missing codecs
+landing-video-enable: True
 landing-video:
   - link: video/print.mp4
     type: video/mp4
@@ -75,34 +76,49 @@ landing-video:
 landing-video-alt-image: images/content/landing/video-overlay.jpg
 
 # Front page services section
-services-title: "How does it works?"
-services-blurb: "I don't know either! but if you pay us we can begin figuring it out for you!"
-services:
-  - title: Design
-    block-icon: fa-anchor
-    blurb: unde om is nerror sit voluptatem accustium
-    link: design.html
-    button-title: Hellz Yeah!
+services-title: "How does it work?"
+#services-blurb: "I don't know either! but if you pay us we can begin figuring it out for you!"
 
-  - title: Print
+feature-area-three: false
+feature-area-list: true
+
+feature-area-list-title: What we do
+feature-area-list-paragraph: We design and build proof of concept electronic devices and prototypes for technology demonstrations, iterative prototyping, and early stage product development. We partner with defense industry research firms. We provide project-focused engineering services to supplement in-house engineering expertise.
+feature-area-list-points:
+  - text: You share your vision.
+  - text: We work with you to develop a project
+  - text: We bring your vision to life.
+
+
+ervices:
+  - title: Consult
+    block-icon: fa-calendar-alt
+    blurb: You share your vision by Schedule a consultation.
+    link: contact.html
+    button-title: Contact us for a quote!
+
+  - title: Plan
     block-icon: fa-pencil-ruler
-    blurb: unde om is nerror sit voluptatem accustium
-    link: print.html
-    button-title: KA ME HA ME..... HA
+    blurb: We work with you to develop a project plan.
+    link: contact.html
+    button-title: Contact us for a quote!
 
-  - title: Model
-    block-icon: fa-warehouse
-    blurb: unde om is nerror sit voluptatem accustium
-    link: model.html
-    button-title: AAAAAAAAAAAAAAAgh!
+  - title: Produce
+    block-icon: fa-cogs
+    blurb:  We bring your vision to life.
+    link: contact.html
+    button-title: Contact us for a quote!
+
+contact-page-title: We’re Here To Help You
+contact-page-blurb: We are waiting for you, contact us via the contact form below your idea. We are here to answer any question.
 
 
-
-mailing-list-blurb: Subscribe to our mailing list for latest updates and <b>100% awesome</b> spam!
+mailing-list-blurb: Subscribe to our mailing list for latest updates!
 
 # Content on the footer section
 footer-about-blurb-title: Our Mission
-footer-about-blurb: Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam rem aperam eaque ipsa quae.
+footer-about-blurb: We design and build proof of concept electronic devices and prototypes for technology demonstrations, iterative prototyping, and early stage product development.
+footer-quick-links-enable: False
 footer-quick-links:
   - link-name: Home
     link-to: index
@@ -113,15 +129,16 @@ footer-quick-links:
 
 #The site menu bar.
 menu-action-button:
-  text: "\"BOIL\" 'EM MASH 'EM!!"
-  link-to: "#"
+  text: "Contact Us Now!"
+  link-to: "contact.html"
 
 menu-tippity-top:
-  - link-name: News
-    link-to: index.html
-  - link-name: Privacy Policy
-    link-to: pricing
+#  - link-name: News
+#    link-to: index.html
+#  - link-name: Privacy Policy
+#    link-to: pricing
 
+menu-bippity-bottom-enable: False
 menu-bippity-bottom:
   - link-name: News
     link-to: index.html
@@ -131,8 +148,8 @@ menu-bippity-bottom:
 menu-top:
   - link-name: Home
     link-to: index.html
-  - link-name: Pricing
-    link-to: pricing
+  #- link-name: Pricing
+  #  link-to: pricing
   - link-name: About
     link-to: about.html
   - link-name: Contact Us
