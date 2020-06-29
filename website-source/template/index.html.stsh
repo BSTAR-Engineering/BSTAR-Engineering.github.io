@@ -212,7 +212,7 @@
                                 </ul>
                                 {{/feature-area-list-points}}
                                 <br><br>
-                                
+
                                     <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
 
                             </div>
