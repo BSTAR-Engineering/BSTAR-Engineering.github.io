@@ -26,15 +26,15 @@ company-social:
 
 # Text for the about us for our members.
 about-title: Meet the Team
-about-blurb: We are totally smart people and can do work good.
+about-blurb: We're excited to get started on your next project
 members:
   -
-    bio: "Alex Camilo graduated with a bachelors in electrical and computer engineering from Worcester Polytechnic Institute. After graduation he was a co-founder of neuron robotics, an education focused robotics startup.Later,  he has worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly."
+    bio: "Alex Camilo majored in electrical and computer engineering at Worcester Polytechnic University. After graduation, he was a co-founder of Neuron Robotics, an education-focused robotics startup. He has also worked as a contract engineer specializing in PCB design, embedded programming, and prototype assembly. He has worked on projects involving medical robotics, IOT, wireless communications, environmental sensing, and robotics education. He is currently a lab manager at Worcester Polytechnic Institute and assists in curriculum development."
     email: Alex@bstarengineering.com
     name-first: Alex
     name-last: Camilo
     phone-extension: 101
-    role: Ommpah Loompah Techadee Dooo..
+    role: Engineering & Design
     photo: images/content/team/alex.jpg
   -
     bio: "Jansen Smith majored in Robotics Engineering and Physics at Worcester Polytechnic Institute in Worcester, Massachusetts. He oversees operations for the firm and lends personal attention to completing every client project on time and with the highest level of satisfaction."
@@ -42,7 +42,7 @@ members:
     name-first: Jansen
     name-last: Smith
     phone-extension: 301
-    role: "Supreme Nerd Wrangler"
+    role: Project Management & Quality Assurance
     photo: images/content/team/jansen.jpg
   -
     bio: "Danyel Pollock majored in Economics and Marketing at the University of Massachusetts Lowell. She works with BStar to reach new customers and implement our firm's vision of providing rockstar customer experiences."
@@ -50,7 +50,7 @@ members:
     name-first: Danyel
     name-last: Pollock
     phone-extension: 201
-    role: "Penultimate WumpMug and Nerd Wrangler Wrangler"
+    role: Customer Experience
     photo: images/content/team/danyel.jpg
 
 # The type-out-a-rsponse animation that plays over the movie
