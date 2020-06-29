@@ -17,12 +17,12 @@ copyright-date: 2020
 company-social:
 #  - type: facebook
 #    link: "#"
-#  - type: twitter
-#    link: "#"
-#  - type: behance
-#    link: "#"
-#  - type: google-plus
-#    link: "#"
+  - type: twitter
+    link: "https://twitter.com/BSTAREng"
+  - type: youtube
+    link: "https://www.youtube.com/channel/UCaExXmUIjuVhYEdWwlN23XQ"
+  - type: linkedin
+    link: "https://www.linkedin.com/company/bstar-engineering/"
 
 # Text for the about us for our members.
 about-title: Meet the Team
