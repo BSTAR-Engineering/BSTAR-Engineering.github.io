@@ -1119,6 +1119,7 @@ select:focus {
     font-size: 15px;
 }
 
+
 #header .navbar-nav>li>a:hover,
 #header .navbar-default .navbar-nav>li>a:hover {
     border-color: #FFF;
