@@ -39,10 +39,10 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 </head>
 <body>
-<!-- header area start -->
-<header id="header" class="transparent-header">
-    <div class="topheader top_header_light hidemobile">
-        <div class="container">
+  <!-- header area start -->
+  <header id="header" class="transparent-header">
+      <div class="topheader top_header_light hidemobile">
+          <div class="container">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="address-icon">
@@ -71,40 +71,40 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- #navigation start -->
-    <nav class="navbar navbar-default navbar-expand-md navbar-light" id="navigation" data-offset-top="1">
-        <!-- .container -->
-        <div class="container">
-            <!-- Logo and Menu -->
-            <div class="navbar-header">
-                <div class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Logo"/></a></div>
-                <!-- site logo -->
-            </div>
-            <!-- Menu Toogle -->
-                <div class="burger-icon">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            <div class="collapse navbar-collapse " id="navbarCollapse">
-                <ul class="nav navbar-nav ml-auto">
-                    {{#menu-top}}
-                    <li><a href="{{link-to}}">{{link-name}}</a></li>
-                    {{/menu-top}}
-                </ul>
-                <div class="header-cta">
-                    <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
-                </div>
-            </div>
-            <!-- Menu Toogle end -->
-        </div>
-        <!-- .container end -->
-    </nav>
-    <!-- #navigation end -->
-</header>
-<!-- end header area -->
-<!-- end header area -->
+          </div>
+      </div>
+      <!-- #navigation start -->
+      <nav class="navbar navbar-default navbar-expand-md navbar-light" id="navigation" data-offset-top="1">
+          <!-- .container -->
+          <div class="container">
+              <!-- Logo and Menu -->
+              <div class="navbar-header">
+                  <div class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Logo"/></a></div>
+                  <!-- site logo -->
+              </div>
+              <!-- Menu Toogle -->
+                  <div class="burger-icon">
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                  </div>
+              <div class="collapse navbar-collapse " id="navbarCollapse">
+                  <ul class="nav navbar-nav ml-auto">
+                      {{#menu-top}}
+                      <li><a href="{{link-to}}">{{link-name}}</a></li>
+                      {{/menu-top}}
+                  </ul>
+                  <div class="header-cta">
+                      <a href="{{menu-action-button.link-to}}" class="btn btn-1c">{{menu-action-button.text}}</a>
+                  </div>
+              </div>
+              <!-- Menu Toogle end -->
+          </div>
+          <!-- .container end -->
+      </nav>
+      <!-- #navigation end -->
+  </header>
+  <!-- end header area -->
 <main>
   <br><br>
 
