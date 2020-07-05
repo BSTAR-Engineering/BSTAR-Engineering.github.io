@@ -1014,6 +1014,9 @@ select:focus {
     margin-left: 45px;
 }
 
+#typed-title{
+  white-space: nowrap;
+}
 /* 2.1. ========================= Navigation ========================= */
 
 .transparent-header {

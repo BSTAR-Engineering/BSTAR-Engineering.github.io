@@ -127,7 +127,7 @@
                     <div class="header-area-inner header-text"> <!-- single content header -->
                         {{#typer-enable}}
                         <div><span class="subtitle ">{{typer-title}}</span></div>
-                        <h1 class="title">{{typer-initial}}
+                        <h1 class="title" id="typed-title">{{typer-initial}}
                             <span id="typed-strings">
                               {{#typer-lines}}
                               <span>{{text}}</span>
