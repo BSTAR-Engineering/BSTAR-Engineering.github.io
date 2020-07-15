@@ -85,9 +85,9 @@ feature-area-list: true
 feature-area-list-title: What we do
 feature-area-list-paragraph: We design and build proof of concept electronic devices and prototypes for technology demonstrations, iterative prototyping, and early stage product development. We partner with defense industry research firms. We provide project-focused engineering services to supplement in-house engineering expertise.
 feature-area-list-points:
-  - text: You share your vision.
+  - text: You share your vision
   - text: We work with you to develop a project
-  - text: We bring your vision to life.
+  - text: We bring your vision to life
 
 
 services:
@@ -113,11 +113,11 @@ contact-page-title: We’re Here To Help You
 contact-page-blurb: We are waiting for you, contact us via the contact form below your idea. We are here to answer any question.
 
 
-mailing-list-blurb: Subscribe to our mailing list for latest updates!
+mailing-list-blurb: Subscribe to our mailing list for the latest updates!
 
 # Content on the footer section
 footer-about-blurb-title: Our Mission
-footer-about-blurb: We design and build proof of concept electronic devices and prototypes for technology demonstrations, iterative prototyping, and early stage product development.
+footer-about-blurb: Our role is to be a cost effective supplement to existing engineering teams. We partner with defense industry research firms to provide project-focused engineering services.
 footer-quick-links-enable: False
 footer-quick-links:
   - link-name: Home
