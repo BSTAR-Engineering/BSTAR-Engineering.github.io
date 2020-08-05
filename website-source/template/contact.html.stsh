@@ -158,6 +158,7 @@
         </p>
     </div> -->
 </main>
+
 <!-- #footer area start -->
 <footer id="footer">
     <div class="footer-top">
@@ -165,6 +166,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-sm-6"><!-- footer widget -->
+                  <!--
                     <div class="f-widget-title">
                         <h4>{{footer-about-blurb-title}}</h4>
                     </div>
@@ -172,11 +174,8 @@
                         <p>{{footer-about-blurb}}
                         </p>
                     </div>
-                    <div class="icon-round-white footer-social mt-25">
-                      {{#company-social}}
-                        <a href="{{link}}" title="{{type}}"><i class="fab fa-{{type}}"></i></a>
-                      {{/company-social}}
-                    </div>
+                  -->
+
                 </div><!-- footer widget -->
                 {{#footer-quick-links-enable}}
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6"><!-- footer widget -->
@@ -228,6 +227,11 @@
                         </div>
                         <p>{{company-fax}}</p>
                     </div>
+                    <div class="icon-round-white footer-social mt-25">
+                      {{#company-social}}
+                        <a href="{{link}}" title="{{type}}"><i class="fab fa-{{type}}"></i></a>
+                      {{/company-social}}
+                    </div>
                 </div><!-- footer widget -->
             </div>
             <!-- to top -->
@@ -265,7 +269,6 @@
     <!-- #footer bottom end -->
 </footer>
 <!-- #footer area end -->
-
 
     <!-- JavaScript File -->
     <!-- jQuery -->
